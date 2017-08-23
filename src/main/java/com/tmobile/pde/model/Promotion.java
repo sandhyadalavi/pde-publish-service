@@ -30,4 +30,13 @@ public class Promotion {
     public void setPromoDesc(String promoDesc) {
         this.promoDesc = promoDesc;
     }
+
+    @Override
+    public String toString() {
+        return "Promotion{" +
+                "promoId=" + promoId +
+                ", promoTitle='" + promoTitle + '\'' +
+                ", promoDesc='" + promoDesc + '\'' +
+                '}';
+    }
 }
